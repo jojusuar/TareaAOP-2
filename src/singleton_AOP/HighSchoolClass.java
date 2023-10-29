@@ -29,7 +29,8 @@ public class HighSchoolClass {
 	
 	public void uploadGrades() {
 		for(Student s: students) {
-			GradesRepository.getInstance().add(s.toString());
+			GradesRepository aulavirtual = new GradesRepository();
+			aulavirtual.add(s.toString());
 		}
 		
 	}
