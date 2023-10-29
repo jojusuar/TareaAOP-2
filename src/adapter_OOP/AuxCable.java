@@ -1,4 +1,4 @@
-package adapter;
+package adapter_OOP;
 
 public class AuxCable implements Connectable{
 	private boolean stereo;

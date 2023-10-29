@@ -1,4 +1,4 @@
-package adapter;
+package adapter_OOP;
 
 public class BluetoothAdapter extends ElectronicDevice implements Connectable{
 	private BluetoothDevice device;

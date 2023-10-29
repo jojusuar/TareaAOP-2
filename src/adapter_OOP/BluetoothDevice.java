@@ -1,4 +1,4 @@
-package adapter;
+package adapter_OOP;
 
 public class BluetoothDevice extends ElectronicDevice implements HumanInterfaceDevice{
 	private String version;

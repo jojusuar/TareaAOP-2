@@ -1,4 +1,4 @@
-package singleton;
+package singleton_AOP;
 import java.util.LinkedList;
 import java.util.List;
 

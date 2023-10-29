@@ -1,4 +1,4 @@
-package singleton;
+package singleton_OOP;
 
 public class Student {
 	private String name;
