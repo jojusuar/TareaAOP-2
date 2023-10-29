@@ -10,10 +10,8 @@ public class Main {
 
         System.out.println("Conexión a través del cable auxiliar:");
         auxCable.Conectar();
-
         System.out.println("\n\nConexión a través del adaptador Bluetooth:");
-        Conectable adapter = (Conectable) bluetoothDevice;
-        adapter.Conectar();
+        ConnectableAdapterAspect adaptador = new ConnectableAdapterAspect(bluetoothDevice);
+        adaptador.Conectar();
 	}
-
 }
